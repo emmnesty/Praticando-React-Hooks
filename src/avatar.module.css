@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ulPai {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #1C1C1C;
+  justify-content: center;
+}
+
+.corDoFundo {
+  display: flex;
+  font-size: 80px;
+  margin: 30px;
+  border: 10px solid #696969;
+  flex-direction: column;
+  width: 1000px;
+  padding: 20px;
+  border-radius: 20px;
+  color: #778899	;
+  font-family: sans-serif;
+  
+}
+
+.imagemIcon {
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+  border: 10px solid #C0C0C0;
+  border-radius: 10px;
+}
