@@ -19,7 +19,7 @@ export default function App() {
   return (
     <ul className={styles.ulPai}>
       {repositories.map((repo) => (
-        <div className={styles.corDoFundo} key={repo.id}>
+        <div className={styles.divBody} key={repo.id}>
           {repo.name}
           <img
             src={repo.owner.avatar_url}
